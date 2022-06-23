@@ -1,0 +1,17 @@
+name: deeplizard-rl
+
+dependencies:
+  - python=3.7
+  - jupyterlab
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - pip
+  - pip:
+#      - numpy
+channels:
+  - conda-forge
+  - defaults
