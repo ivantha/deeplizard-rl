@@ -9,6 +9,7 @@ dependencies:
   - scikit-learn
   - matplotlib
   - tqdm
+  - gym
   - pip
   - pip:
 #      - numpy
