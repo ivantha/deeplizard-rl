@@ -3,6 +3,7 @@ name: deeplizard-rl
 dependencies:
   - python=3.7
   - jupyterlab
+  - ipywidgets
   - numpy
   - pandas
   - scipy
@@ -10,9 +11,15 @@ dependencies:
   - matplotlib
   - tqdm
   - gym
+  - pyglet
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.6
   - pip
   - pip:
 #      - numpy
 channels:
+  - pytorch
   - conda-forge
   - defaults
